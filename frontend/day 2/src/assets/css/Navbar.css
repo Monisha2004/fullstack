@@ -1,0 +1,94 @@
+#header {
+    padding-right: 5%;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    font-size: 1.3vw; 
+}
+
+#navbar {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 50%;
+}
+
+.css-hyum1k-MuiToolbar-root {
+    background-color: rgb(8, 165, 8);
+    margin-top: 0px;
+}
+
+#login1{
+    border: 1px solid;
+    border-color: blanchedalmond;
+    box-sizing: content-box;
+    margin-left:55%;
+}
+#login3{
+    border: 1px solid;
+    border-color: blanchedalmond;
+    box-sizing: content-box;
+    margin-left:0.5%;
+}
+
+#totalnav {
+    padding-left: 9%;
+}
+
+@media only screen and (max-width: 768px) {
+    #header {
+        padding-right: 3%;
+    }
+
+    #navbar {
+        padding-right: 8%;
+    }
+
+    #totalnav {
+        padding-left: 3%;
+    }
+}
+
+#img {
+    position: relative;
+    background-color: rgb(127, 246, 127);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+  
+  #box {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+  }
+  
+  .box1,
+  .box2 {
+    flex: 1;
+    padding: 100px;
+    /* height: 300px; */
+    border-radius: 10px;
+    background-color: rgba(209, 209, 209, 0.8); 
+    margin: 2%;
+  }
+  
+  .home {
+    padding-top: 5px;
+    text-align: center;
+  }
+  #heading
+  {
+    padding-bottom: 40px;
+    line-height: 30px;
+    text-align: center;
+    color: black !important;
+  }
+#p1
+{
+    line-height: 30px;
+    text-align: center;    
+}
+  
+  
