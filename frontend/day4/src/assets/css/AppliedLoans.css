@@ -1,0 +1,33 @@
+.card-grids {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start; /* Align items to the start of the flex container */
+}
+.cards {
+  border: 1px solid #026d62;
+  padding: 16px;
+  margin: 16px;
+  width: calc(33.33% - 32px); /* Adjust the width as needed */
+  box-sizing: border-box; /* Include padding and border in the box sizing */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f2f2f2; /* Change to the color you prefer */
+}
+
+
+.card-title {
+  color: #333;
+  padding-left: 10px; /* Adjust the padding as needed */
+  padding-top: 3px;
+}
+
+.card-content {
+  color: #d7b5b5;
+}
+
+.button-groups {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
