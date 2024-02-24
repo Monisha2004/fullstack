@@ -1,0 +1,33 @@
+
+.card-listt {
+    padding-top: 50px;
+    padding-left: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .cardd {
+    border: 1px solid #026d62;
+    padding: 16px;
+    margin: 16px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardd-title {
+    color: #333;
+  }
+  
+  .cardd-content {
+    color: #666;
+  }
+
+  .cardd-title
+  {
+    padding-left:100px;
+    padding-top: 3px;
+  }
+  
